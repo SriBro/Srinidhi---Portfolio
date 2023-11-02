@@ -9,13 +9,27 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <title>Srinidhi - Developer Portfolio</title>
+    <style>
+      .h {
+          height: 1px;
+          width: 0;
+          background-color: black;
+          animation: drawLine 7s forwards; /* Animation duration: 4s */
+      }
+  
+      @keyframes drawLine {
+          to {
+              width: 100%; /* Fully drawn line */
+          }
+      }
+  </style>
   </head>
   <body>
     <!--navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <!-- Just an image -->
     <a class="navbar-brand" href="#">
-        <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
+        <img src="images/code2.jpg" width="30" height="30" alt="">
       </a>
         <a class="navbar-brand" href="#">Srinidhi's Portfolio</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,6 +67,37 @@
         </div>
       </div>
     </div>
+    <hr class="h">
+    <footer class="container-fluid pb-3">
+      <div class="row justify-content-end">
+          <div class="col col-sm-1 .col-1">
+              <a class="navbar-brand" href="#">
+                  <img src="icons/github.png" width="30" height="30" alt="" style="border-radius: 10px;">
+              </a>
+          </div>
+          <div class="col col-sm-1 .col-1">
+              <a class="navbar-brand" href="#">
+                <img src="icons/github.png" width="30" height="30" alt="" style="border-radius: 10px;">
+              </a>
+          </div>
+          <div class="col col-sm-1 .col-1">
+              <a class="navbar-brand" href="#">
+                <img src="icons/github.png" width="30" height="30" alt="" style="border-radius: 10px;">
+              </a>
+          </div>
+          <div class="col col-sm-1 .col-1">
+              <a class="navbar-brand" href="#">
+                <img src="icons/github.png" width="30" height="30" alt="" style="border-radius: 10px;">
+              </a>
+          </div>
+          <div class="col col-sm-1 .col-1">
+              <a class="navbar-brand" href="#">
+                <img src="icons/github.png" width="30" height="30" alt="" style="border-radius: 10px;">
+              </a>
+          </div>
+      </div>
+  </footer>
+  
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
